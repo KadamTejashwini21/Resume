@@ -1,12 +1,15 @@
 body {
-    font-family: Verdana,
-    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
     max-width: 960px;
     margin: auto;
 }
+
 .no-gap {
-    margin: 0; /* Removes all margins */
+    margin: 0;
+    /* Removes all margins */
 }
+
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
@@ -23,7 +26,8 @@ h3 {
     font-size: 1em;
     padding-bottom: 1em;
 }
-main { 
+
+main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
@@ -52,10 +56,12 @@ hr {
     height: 1px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 100;
     margin-bottom: 0;
 }
+
 #mainLeft {
     border-right: 1px solid rgb(138, 69, 69);
-    
