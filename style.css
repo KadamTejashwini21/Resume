@@ -1,16 +1,38 @@
+<<<<<<< HEAD
+body {
+  font-family: Georgia, serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: 0,auto;
+=======
 /* General Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+>>>>>>> 75378e660b584e5f908dcb7c80dbe89da9081ce9
 }
+<<<<<<< HEAD
+
+h1 {
+  font-size: 3em;
+  letter-spacing: .6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+=======
 
 body {
   font-family:  sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
+>>>>>>> 75378e660b584e5f908dcb7c80dbe89da9081ce9
 }
 
+<<<<<<< HEAD
+h2 {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+=======
 header {
   text-align: center;
   margin-bottom: 30px;
@@ -45,7 +67,53 @@ main {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+>>>>>>> 75378e660b584e5f908dcb7c80dbe89da9081ce9
 }
+<<<<<<< HEAD
+
+h3 {
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+main { 
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 3em;
+}
+
+header {
+  text-align: center;
+  margin: auto 2em;
+}
+
+section {
+  margin: auto 1em 4em 2em;
+}
+
+i {
+  margin-right: .5em;
+}
+
+p {
+  margin: .2em auto
+}
+
+hr {
+  border: none;
+  background-color: rgb(117, 36, 36);
+  height: 1px;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+#mainLeft {
+  border-right: 2px solid rgb(138, 29, 29);
+}
+=======
 
 /* Left Column */
 #mainLeft {
@@ -108,3 +176,5 @@ i {
   }
 }
 
+
+>>>>>>> 75378e660b584e5f908dcb7c80dbe89da9081ce9
