@@ -1,65 +1,119 @@
-body {
-    font-family: serif;
-    font-size: 12px;
-    max-width: 960px;
-    margin: 0 auto;
-}
-/* Removes all margins */
-.no-gap {
-    margin: 0; 
-}
-
-h1 {
-    font-size: 3em;
-    letter-spacing: 0.6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-h2 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
-}
-
-h3 {
-    font-size: 1em;
-    padding-bottom: 1em;
-}
-
-main {
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:Georgia, serif;
+    background-color: #f7f6f6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: 1px solid #611e1e;
+    margin: 10px 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  /* Grid Layout */
+  main { 
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 3em;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
-header {
-    text-align: center;
-    margin: auto 2em;
-}
-
-section {
-    margin: auto 1em 4em 2em;
-}
-
-i {
-    margin-right: 0.5em;
-}
-
-p {
-    margin: 0.2em auto;
-}
-
-hr {
-    border: none;
-    background-color: rgb(179, 29, 29);
-    height: 1px;
-}
-
-h1, h2, h3 {
-    font-weight: 100;
-    margin-bottom: 0;
-}
-
-#mainLeft {
-    border-right: 1px solid rgb(138, 69, 69);
-}
+  main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #mainLeft,
+  #mainRight {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Column */
+  #mainLeft {
+    background-color: #f9f9f9;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  small {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  
+  /* Right Column */
+  #mainRight {
+    background-color: #fff;
+  }
+  
+  /* Responsiveness */
+  @media only screen and (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    #mainLeft,
+    #mainRight {
+      padding: 15px;
+    }
+  }
+  
+  
