@@ -1,18 +1,17 @@
-
+body {
     font-family: serif;
-        font-size: 12px;
+    font-size: 12px;
     max-width: 960px;
-    margin: auto;
-
-
+    margin: 0 auto;
+}
+/* Removes all margins */
 .no-gap {
-    margin: 0;
-    /* Removes all margins */
+    margin: 0; 
 }
 
 h1 {
     font-size: 3em;
-    letter-spacing: .6em;
+    letter-spacing: 0.6em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -43,11 +42,11 @@ section {
 }
 
 i {
-    margin-right: .5em;
+    margin-right: 0.5em;
 }
 
 p {
-    margin: .2em auto
+    margin: 0.2em auto;
 }
 
 hr {
@@ -56,12 +55,11 @@ hr {
     height: 1px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-weight: 100;
     margin-bottom: 0;
 }
 
 #mainLeft {
     border-right: 1px solid rgb(138, 69, 69);
+}
