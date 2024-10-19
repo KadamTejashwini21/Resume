@@ -31,21 +31,22 @@
   }
   
   /* Grid Layout */
-  main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
   main {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+}
+.left-column {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.right-column {
+  padding: 15px;
+  border-radius: 8px;
+}
+  
   
   #mainLeft,
   #mainRight {
